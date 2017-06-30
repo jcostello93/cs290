@@ -1,0 +1,69 @@
+table {
+    border: 1px solid; 
+}
+
+table td {
+    text-align: center; 
+    border: 1px solid; 
+    width: 3em; 
+}
+
+table th {
+    text-align: center; 
+    border: 1px solid; 
+    width: 3em; 
+}
+
+#MultplicationTable {
+    empty-cells: show; 
+    table-layout: fixed;
+    width: 50%;
+}
+
+.outer-content { 
+    margin-top: 20px;
+    width: 75%;
+    float: left;
+    background-color: pink; 
+    text-align: center; 
+
+    height: 4em; 
+
+    display: flex;
+    justify-content: center; 
+}
+
+.inner-content { 
+    background-color: blue; 
+    display: flex; 
+    align-self: center; 
+
+    width: 75%; 
+    justify-content: center; 
+
+    height: 2em; 
+
+}
+
+.text {
+    display: flex; 
+    align-items: center; 
+}
+
+.columns {
+    font-weight: normal; 
+    font-style: italic; 
+    text-align: center; 
+}
+
+form {
+    border: 1px solid black; 
+    margin-bottom: 2em;
+}
+
+form div {
+    border: 1px solid black; 
+    padding: 5px;
+    margin: 3px; 
+
+}
