@@ -1,0 +1,12 @@
+table {
+  column-count: 3; 
+  width: 100%;
+  background-color: yellow;
+}
+
+td, th {
+  background-color: yellow;
+  min-width: 100px;
+  max-width: 100px;
+  column-span: 1; 
+}
